@@ -1,0 +1,8 @@
+1. -->If we learn CMD line arguments in monday then i will ask if we args get stored if we try to store it in a method instead of main
+Ans --> SInce the args are stored in a string array which is in main to use it in method we need to pass it as a parameter show that method can acces it
+
+
+2. --> if application is running fine on one system . Can it fail on another if it has a lower java version 
+Q . JVM convert the java code into bytecode so that it can be run anywhere so what will happen if the other system has an version mismatch
+
+Q . Args topic interview question doubt

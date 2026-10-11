@@ -1,0 +1,12 @@
+U need to save  the java file name the same as class only if the class is public otherwise there's no need to 
+save it with a same name.
+
+Otherwise we can just save the java file name with any name and after compiling we can
+just use JVM to run every class using there name
+
+Can we create two diff public class in the same java file?
+
+
+--> Even an empty class get compile but it won't run it will give error while running.
+
+-> Java file will compile if it has only one public and other normal class
