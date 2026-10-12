@@ -1,4 +1,5 @@
-package com.StringBuilder;
+package com.
+StringBuilder;
 
 public class QueryGenerator {
 
