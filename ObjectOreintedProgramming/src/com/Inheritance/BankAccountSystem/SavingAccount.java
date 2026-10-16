@@ -18,7 +18,7 @@ public class SavingAccount  extends Account{
 		}else if (amount < 0){
 			System.err.println("Invalid Amount");
 		}else {
-			System.err.println("a 1000 RS minimum should be left");
+			System.err.println();
 		}
 	}
 	void addInterest() {

@@ -17,7 +17,7 @@ public class Manager extends Employee {
 		bonus += teamSize * 1000;
 		return bonus;
 	}
-
+	@Override
 	public void showDetails() {
 		System.out.println("Job Role     : Manager");
 		System.out.println("Team Size    : " + teamSize);
