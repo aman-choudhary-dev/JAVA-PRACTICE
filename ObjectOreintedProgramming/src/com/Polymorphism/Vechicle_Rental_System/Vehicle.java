@@ -35,8 +35,12 @@ public abstract class Vehicle {
 
 	public double returnVehicle(int hours) {
 		if (isRented == true) {
-			isRented = false;
-			return calculateRentalCost(hours);
+			if(hours < 0) {
+				isRented = false;
+				return calculateRentalCost(hours);				
+			}else {
+				System.err.println("Enter Valid Rent Time");
+			}
 		} else {
 			System.err.println("This vehicle was never rented");
 		}
