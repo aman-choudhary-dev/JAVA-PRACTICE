@@ -6,6 +6,6 @@ public class Driver1 {
 		e.markIn();
 //		e.doSomething();
 		HRManager h = new HRManager();
-		h.doSomethig();
+		h.doSomethig();// not the right way though it will work
 	}
 }
