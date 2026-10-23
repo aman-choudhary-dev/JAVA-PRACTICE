@@ -35,7 +35,7 @@ public abstract class Vehicle {
 
 	public double returnVehicle(int hours) {
 		if (isRented == true) {
-			if(hours < 0) {
+			if(hours > 0) {
 				isRented = false;
 				return calculateRentalCost(hours);				
 			}else {

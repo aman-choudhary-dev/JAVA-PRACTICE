@@ -12,5 +12,6 @@ public class Driver {
 		System.out.println("Total Cost : " +v1.returnVehicle(3));
 		System.out.println("Total Cost : " +v2.returnVehicle(3));
 		System.out.println("Total Cost : " +v3.returnVehicle(3));
+		System.out.println(v1.calculateRentalCost(3));
 	}
 }
