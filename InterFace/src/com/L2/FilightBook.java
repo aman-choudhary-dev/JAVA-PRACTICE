@@ -16,5 +16,10 @@ public class FilightBook implements IBooking{
 		// TODO Auto-generated method stub
 		
 	}
-
+	/**
+	 * we are just calling the method of Interface this printTicket method is not overriding or something
+	 */
+	void printTicket() {
+		IBooking.printTicket();
+	}
 }

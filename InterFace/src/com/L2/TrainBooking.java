@@ -17,5 +17,12 @@ public class TrainBooking implements IBooking {
 	public void autoUpgrade() {
 		System.out.println("TrainBooking.autoUpgrade()");
 	}
+	/**
+	 * we are just calling the method of Interface this printTicket method is not overriding or something
+	 */
+	void printTicketForTrain() {
+		IBooking.printTicket();
+	}
+
 
 }
